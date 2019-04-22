@@ -1,0 +1,4 @@
+Zapytanie 1: INSERT INTO `uzytkownicy` (`id`, `nick`, `zainteresowania`, `zawod`, `plec`) VALUES (NULL, 'Anna', 'muzyka', 'informatyk', 'k');
+Zapytanie 2: INSERT INTO `konta` (`id`, `login`, `haslo`) VALUES (NULL, 'AKowalska', 'qazwsx');
+Zapytanie 3: SELECT `login`,`haslo` FROM `konta`;
+Zapytanie 4: SELECT `zainteresowania` FROM `uzytkownicy` WHERE `id`=1

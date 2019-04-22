@@ -1,0 +1,4 @@
+Zapytanie 1: SELECT `imie`, `nazwisko` FROM `uczen`;
+Zapytanie 2: SELECT `imie`, `nazwisko` FROM `uczen` where `id`=2;
+Zapytanie 3: SELECT `imie`,`nazwisko`, `ocena` FROM `uczen` join `ocena` on `ocena`.`uczen_id` = `uczen`.`id` WHERE `uczen`.`id` = 2 and `ocena`.`przedmiot_id` = 1;
+Zapytanie 4: SELECT `imie`,`nazwisko`, avg(`ocena`) FROM `uczen` join `ocena` on `ocena`.`uczen_id` = `uczen`.`id` WHERE `uczen`.`id` = 2 and `ocena`.`przedmiot_id` = 1;

@@ -1,0 +1,42 @@
+#baner{
+    background-color: #829EB9;
+    height: 50px;
+    font: Arial;
+    text-align: center;
+}
+#panelLewy{
+    background-color: #B3C6D9;
+    height: 600px;
+    width: 25%;
+    float: left;
+}
+#panelPrawy{
+    background-color: #E0E9F1;
+    height: 600px;
+    width: 75%;
+    text-align: center;
+    float: right;
+}
+#stopka {
+    background-color: #829EB9;
+    text-align: right;
+    clear: both;
+}
+img {
+    margin: 30px;
+    padding: 10px;
+    border: 2px dashed #B3C6D9;
+}
+table{
+    margin: 30px;
+    border: 2px solid;
+    width: 70px;
+}
+tr:hover{
+    background-color: blue;
+    color: white;
+}
+th{
+    background-color: #B3C6D9;
+    border: 2px solid;
+}
