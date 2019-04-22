@@ -1,0 +1,16 @@
+Notatka 
+
+Skrypt po stronie klienta - js
+Po stronie serwera php
+
+w razie czego i tak robić js
+
+
+_____________________________________________
+
+document.write("test");
+
+document - obiekt
+. - operator elementu składowego 
+write("test"); - metoda
+"test" - parametry

@@ -1,0 +1,34 @@
+/*jQuery(document).ready(function(){
+   $('#tekst').click(function(){
+       //$('#lorem').toggle();
+       //$('#lorem').toggle('slow');
+       $('#lorem').toggle('4000');
+   }) 
+});*/
+$(document).ready(function(){
+    $('div').css("background",'yellow');
+    $('.tekst').css('background','teal');
+    $('#id1').css('background','red');
+    $('#id1').css({'background':'blue','color':'green'});
+    $('#id2').css('color','white');
+    $('*').css('font-family','arial','verdana');
+    $('*').css('color','brown');
+    $('*').css({'color':'brown','font-size':'95%'});
+    $('#btn1').click(function(){
+       $('div').css('color','black'); 
+    });
+    $('#ukryj').click(function(){
+       $('#akapit').hide(2000) ;
+    }); 
+    $('#pokaz').click(function(){
+       $('#akapit').show('fast'); 
+    });
+    $('#zmien').click(function(){
+        $('#html').html('<h1>zmiana</h1>');
+    });
+    $('a').css('color','green');
+    $('#link a').css('color','black');
+    $('#kolorInny').click(function(){
+        $('input[type="text"]').css('background','brown');
+    });
+});
